@@ -6,21 +6,22 @@ object Main extends App{
     var k=4.3
 //a)
     b-=1
-    d-=1
+    
     
 
     println( (b * a) + (c *d));
+    d-=1
 //b)
-    a+=1
     println(a)
+    a+=1
 //d)
-    c+=1
     println(c)
+    c+=1
 //e)
     c+=1
-    a+=1
     c=c*a
     println(c)
+    a+=1
 
     
 
