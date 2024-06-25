@@ -4,8 +4,24 @@ object Main extends App{
     var c=3
     var d=5
     var k=4.3
+//a)
+    b-=1
+    d-=1
+    
 
-    println( b-=b * a + c *d-=d);
+    println( (b * a) + (c *d));
+//b)
+    a+=1
+    println(a)
+//d)
+    c+=1
+    println(c)
+//e)
+    c+=1
+    a+=1
+    c=c*a
+    println(c)
+
     
 
 }
